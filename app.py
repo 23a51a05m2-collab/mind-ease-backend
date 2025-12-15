@@ -5,10 +5,7 @@ from chatbot import ChatBot # We import the class
 print("Starting Flask server...")
 
 app = Flask(__name__)
-origins = [
-    "https://fanciful-pony-461d2a.netlify.app/" 
-]
-CORS(app, resources={r"/chat": {"origins": origins}})
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # --- THIS IS THE FIX ---
 # We now pass the file paths to the ChatBot constructor
@@ -49,3 +46,4 @@ if __name__ == '__main__':
     # as our chatbot now provides its own logs.
 
     app.run(host='127.0.0.1', port=5000, debug=False)
+
