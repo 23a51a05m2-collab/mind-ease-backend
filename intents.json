@@ -1,0 +1,74 @@
+{
+"intents": [
+{
+"tag": "greeting",
+"patterns": [
+"Hi", "Hello", "Hey", "Good morning", "Good evening", "How are you", "What's up", "Hows it going", "Hi there"
+],
+"responses": ["Hello! It's good to hear from you. What's on your mind today?", "Hi there. I'm here to listen. How are you feeling?", "Hey! I'm here for you. What's going on?"]
+},
+{
+"tag": "farewell",
+"patterns": [
+"Bye", "Goodbye", "See you", "Talk later", "I have to go", "quit", "exit", "ttyl", "cya", "i gtg"
+],
+"responses": ["Goodbye! Take care of yourself. Remember, I'm here if you need to talk again.", "Talk soon. Be kind to yourself.", "Take care. I'm here if you need me."]
+},
+{
+"tag": "thanks",
+"patterns": [
+"Thanks", "Thank you", "That's helpful", "I appreciate it", "thx", "thank u"
+],
+"responses": ["You're welcome. I'm here if you need to talk more. Is there anything else on your mind?", "Of course. I'm here to support you.", "Anytime. Your feelings are valid."]
+},
+{
+"tag": "sadness",
+"patterns": [
+"I feel sad", "I am depressed", "feeling down", "I'm crying", "I feel so lonely", "I feel empty", "I feel hopeless", "i am feeling so down", "i'm not happy", "my life is miserable", "i feel empty inside", "i'm so lonely", "i don't feel good"
+],
+"responses": ["I'm really sorry to hear you're feeling this way. It's brave of you to share. Can you tell me a bit more about what's going on?", "Feeling that way is incredibly difficult, and I want you to know you're not alone. I'm here to listen.", "I hear you. That sounds really tough to go through. I'm here for you."]
+},
+{
+"tag": "anxiety",
+"patterns": [
+"I feel stressed", "I'm so anxious", "I'm worried", "I am overwhelmed", "I'm panicking", "I feel scared", "i'm freaking out", "i can't calm down", "i'm having a panic attack", "my heart is racing", "i'm on edge", "i can't stop worrying"
+],
+"responses": ["Those feelings can be really overwhelming. I'm here to listen. What's been causing you to feel this way?", "That sounds like a lot to carry. Please feel free to share what's on your mind. There's no judgment here.", "It sounds like you have a lot on your mind. Let's talk through it. What's the main thing you're worried about?"]
+},
+{
+"tag": "anger",
+"patterns": [
+"I'm angry", "I feel mad", "I'm frustrated", "I'm so pissed off", "i am so mad right now", "i'm feeling frustrated", "i hate this"
+],
+"responses": ["It's completely valid to feel angry. Sometimes it helps to understand the source. What's making you feel this way?", "Anger is a powerful emotion. I'm listening. What's going on?", "That sounds really frustrating. I'm here to listen if you want to vent about it."]
+},
+{
+"tag": "help_general",
+"patterns": [
+"how can I feel better", "how to improve my mood", "what can i do to feel good", "how to get better", "i need help", "what should i do", "can you help me", "i need some advice"
+],
+"responses": ["It's a great step to ask how you can feel better. Small things can make a big difference. Have you tried our 'Positive Journal' to focus on good things, or the 'Breathing Exercise' to calm your mind?", "Sometimes, just talking about what's wrong (like you are now) is a helpful start. What's on your mind?", "I'm here to help. A good first step can be to try and center yourself. Our breathing tool is designed for that. Would you like to try it?"]
+},
+{
+"tag": "help_sad",
+"patterns": [
+"stop feeling sad", "how to not be sad", "tired of being sad", "sick of feeling sad", "how do i stop crying", "i can't stop feeling this way", "how to be happy again"
+],
+"responses": ["It's exhausting to feel sad all the time, and I'm sorry you're going through that. While I can't make the feeling go away, sometimes focusing on small, manageable things helps. Have you tried our 'Positive Journal' or talking more about why you feel sad?", "It's a really hard place to be in. You're not alone in feeling this way. Talking about it is a good first step. What's been on your mind?"]
+},
+{
+"tag": "suicide_prevention",
+"patterns": [
+"I want to kill myself", "I want to end my life", "I want to die", "I don't want to live anymore", "I have no reason to live", "suicide", "i just want to end it all", "it's not worth living", "the world is better off without me", "i am going to kill myself"
+],
+"responses": ["If you are feeling like you want to end your life, please know that you are not alone and help is available. I am an AI and cannot provide medical crisis support, but you can connect with people who can support you. Please consider calling 9152987821 (Vandrevala Foundation) or 9820466726 (Samaritans Mumbai). Reaching out is a sign of strength."]
+},
+{
+"tag": "default_fallback",
+"patterns": [
+"", "I don't know", "maybe", "what", "uh", "um", "hmm"
+],
+"responses": ["Thank you for sharing that. It sounds like a lot to take in. Could you tell me more?", "I'm listening. Please feel free to share as much as you're comfortable with.", "That's a valid feeling. What do you think is contributing to it?", "Tell me more about that."]
+}
+]
+}
